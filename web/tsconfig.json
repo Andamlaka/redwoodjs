@@ -13,6 +13,7 @@
       "../api/src",
       "../.redwood/types/mirror/api/src"
     ],
+     "forceConsistentCasingInFileNames": true,
     "paths": {
       "src/*": [
         "./src/*",
@@ -30,7 +31,8 @@
       "../node_modules/@testing-library"
     ],
     "types": ["jest", "jest-dom"],
-    "jsx": "preserve"
+    "jsx": "preserve",
+     "strict": true
   },
   "include": [
     "src",
